@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Tea Cozy</title>
+  <link rel="stylesheet" href="./Resources/CSS/reset.css">
+  <link rel="stylesheet" href="./Resources/CSS/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img class="logo" src="./Resources/Images/img-tea-cozy-logo.png" alt="The Tea Cozy company logo">
+      <nav>
+        <ul>
+          <li>
+            <a href="#mission">Mission</a>
+          </li>
+          <li>
+            <a href="#featured-tea">Featured Tea</a>
+          </li>
+          <li>
+            <a href="#locations">Locations</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="mission-container" id="mission">
+    <div class="mission-statement">
+      <h2>Our Mission</h2>
+      <h4>Handpicked, Artisanlly Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+    </div>
+  </div>
+  <div class="tea-of-the-month-container" id="featured-tea">
+    <div class="tea-of-the-month-statement">
+      <h2>Tea of the Month</h2>
+      <h4>What's steaping at the Tea Cozy?</h4>
+      <div class="tea-container">
+        <div class="tea-card">
+          <img class="tea-image" src="./Resources/Images/img-berryblitz.jpg" alt="Fall Berry Blitz Tea">
+          <h4>Fall Berry Blits Tea</h4>
+        </div>
+        <div class="tea-card">
+          <img class="tea-image" src="./Resources/Images/img-spiced-rum.jpg" alt="Spiced Rum Tea">
+          <h4>Spiced Rum Tea</h4>
+        </div>
+        <div class="tea-card">
+          <img class="tea-image" src="./Resources/Images/img-donut.jpg" alt="Seasonal Donuts">
+          <h4>Seasonal Donuts</h4>
+        </div>
+        <div class="tea-card">
+          <img class="tea-image" src="./Resources/Images/img-myrtle-ave.jpg" alt="Myrtle Ave Tea">
+          <h4>Myrtle Ave Tea</h4>
+        </div>
+        <div class="tea-card">
+          <img class="tea-image" src="./Resources/Images/img-bedford-bizarre.jpg" alt="Bedford Bizarre Tea">
+          <h4>Bedford Bizarre Tea</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="location-container" id="locations">
+    <h2 class="location-statement">Locations</h2>
+    <div class="location-panel">
+      <div class="location-card">
+        <div class="address">
+          <h3>Downtown</h3>
+          <h3>384 West 4th St</h3>
+          <h3>Suite 108</h3>
+          <h3>Portland, Maine</h3>
+        </div>
+      </div>
+      <div class="location-card">
+        <div class="address">
+          <h3>East Bayside</h3>
+          <h3>3433 Phisherman's Avenue</h3>
+          <h3>(Northwest Corner)</h3>
+          <h3>Portland, Maine</h3>
+        </div>
+      </div>
+      <div class="location-card">
+        <div class="address">
+          <h3>Oakdale</h3>
+          <h3>515 Crescent Avenue</h3>
+          <h3>Second Floor</h3>
+          <h3>Portland, Maine</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="contact">
+      <h2>The Tea Cozy</h2>
+      <h5>contact@theteacozy.com</h5>
+      <h5>917-555-8904</h5>
+    </div>
+    <div class="copyright">
+      <h5>copyright The Tea Cozy 2017</h5>
+    </div>
+  </footer>
+</body>
+</html>
